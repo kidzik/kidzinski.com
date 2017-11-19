@@ -9,7 +9,7 @@ title = "FreeBoost - MRI segmentation"
 summary = "Better, faster and cheaper MRI segmentation using deep learning"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "headers/brain.jpg"
+image_preview = "mini-headers/brain.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -24,7 +24,8 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/freeboost.jpg"
-caption = "My caption :smile:"
+caption = "Comparison between FreeSurfer and FreeBoost"
 
 +++
 
+Together with my Stanford colleagues (Ben Kotopka, Alexander Onopa and Owen Philips) we developped an MRI brain segmentation tool. Find out more on the [project website](http://freeboost.org/).

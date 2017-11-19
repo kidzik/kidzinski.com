@@ -9,7 +9,7 @@ title = "Golf swing analysis app"
 summary = "Using modern methods for pose estimation to evaluate a golf swing"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "headers/golf.png"
+image_preview = "mini-headers/golf.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -24,9 +24,11 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/golf.png"
-caption = "My caption :smile:"
+caption = "Pose estimation algorithm applied to a golf swing image"
 
 +++
+
+During [Stanford Ignite progrem](https://www.gsb.stanford.edu/programs/stanford-ignite), together with my teammates we were evaluating commercial opportunities of applying AI for sport's coaching. We prototyped a mobile app using pose estimation algorithms for improving golf swing performance.
 
 {{< youtube SjPP5x1csOc >}}
 <br>

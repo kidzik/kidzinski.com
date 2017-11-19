@@ -9,7 +9,7 @@ title = "DeepArt - Neural style platform"
 summary = "Computational methods for transfering a painting style to any photo"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "headers/deepart.jpg"
+image_preview = "mini-headers/deepart.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -24,11 +24,11 @@ math = false
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "headers/deepart.jpg"
-caption = "My caption :smile:"
+caption = "Tübingen"
 
 +++
 
-
+Astonishing results from the [original style transfer paper](https://arxiv.org/pdf/1508.06576.pdf) motivated me and Michał Warchoł to implement the first transfer platform and make it available to the public. After the prompt success we joined the forces with the authors of the orginal algorithm (Leon Gatys, Alexander Ecker and Mathias Bethge) and we continued working together on delivering tools for creating artworks within a few clicks. Visit [deepart.io](https://deepart.io/) and try it out!
 
 {{< youtube olj6rktnr40 >}}
 <br>
