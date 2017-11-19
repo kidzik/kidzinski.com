@@ -3,10 +3,10 @@
 date = "2016-04-27"
 
 # Project title.
-title = "Learning how to walk"
+title = "Learning how to run (NIPS)"
 
 # Project summary to display on homepage.
-summary = "Neuromuscular virtual environments to better understand human movement"
+summary = "My neuromuscular environments for analyzing motor control. Accepted as an official NIPS challenge in 2017"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = "mini-headers/l2r.jpg"
