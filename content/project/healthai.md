@@ -28,7 +28,7 @@ caption = "HealthAI meeting, October 18th, 2018"
 
 +++
 
-Bringing together experts from Schools of Medicine, Engineering, and Business at Stanford to tackle medical problems at scale using state-of-the-art AI methods. Three main
+In April 2018 I started the [HealthAI working group](http://healthai.stanford.edu/). Our mission is to bring together experts from Schools of Medicine, Engineering, and Business at Stanford to tackle medical problems at scale using state-of-the-art AI methods. Three main
 
 * **Problems & solutions:** Find out what problems are researchers facing in medical fields. See new methods from CS researchers.
 group

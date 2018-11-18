@@ -36,7 +36,7 @@ Suppose we observe N subjects, each subject at multiple timepoints and we want t
 
 Here, the connected dots come from individual subjects and the black thick line corresponds to the population mean.
 
-In this package we follow the methodology from [Kidziński, Hastie (2018)](https://arxiv.org/abs/1809.08771) to fit trajectories using matrix completion. To this end, we discretize the time grid some continous basis and find a low-rank decomposition of the dense matrix.
+**I've build the package to fit trajectories using matrix completion and I described the methodology in my recent paper [Kidziński, Hastie (2018)](https://arxiv.org/abs/1809.08771).** To this end, we discretize the time grid some continous basis and find a low-rank decomposition of the dense matrix.
 
 ![Matrix completion and sparse longitudinal completion](https://s3-eu-west-1.amazonaws.com/kidzinski/kidzinski/fcomplete/intro-1.png)
 

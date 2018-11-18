@@ -28,9 +28,9 @@ caption = "Running simulation"
 
 +++
 
-Use my musculoskeletal reinforcement learning environment for other projects in computer science, neuroscience, biomechanics, etc. 
+I've build a musculoskeletal reinforcement learning environment for studying motor control using modern methods from computer science, neuroscience, biomechanics, etc. 
 
-We set up a competition to build models of the brain in the [crowdAI](platform). Competition was accepted as one of the 5 official competitions at  [NIPS 2017](https://www.crowdai.org/challenges/nips-2017-learning-to-run) and one of 8 competitions at [NIPS 2018](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge), attracting over 500 teams from all over the world.
+I've set up a competition to build models of the brain in the [crowdAI](platform). Competition was accepted as one of the 5 official competitions at  [NIPS 2017](https://www.crowdai.org/challenges/nips-2017-learning-to-run) and one of 8 competitions at [NIPS 2018](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge), attracting over 500 teams from all over the world.
 
 Here are some solutions from the first challenge
 
