@@ -1,15 +1,15 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2017-10-01"
 
 # Project title.
-title = "DeepArt - Neural style platform"
+title = "Deep learning in gait analysis"
 
 # Project summary to display on homepage.
-summary = "Computational methods for transfering a painting style to any photo"
+summary = "Modern computer vision in biomechanics"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "mini-headers/deepart.jpg"
+image_preview = "mini-headers/dl-biomechanics.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -22,13 +22,13 @@ external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/deepart.jpg"
-caption = "Tübingen"
+# [header]
+# image = "headers/deepart.jpg"
+# caption = "Tübingen"
 
 +++
 
 Astonishing results from the [original style transfer paper](https://arxiv.org/pdf/1508.06576.pdf) motivated me and Michał Warchoł to implement the first transfer platform and make it available to the public. After the prompt success we joined the forces with the authors of the orginal algorithm (Leon Gatys, Alexander Ecker and Mathias Bethge) and we continued working together on delivering tools for creating artworks within a few clicks. Visit [deepart.io](https://deepart.io/) and try it out!
 
-{{< youtube olj6rktnr40 >}}
+{{< youtube tqMDu6jYHLM >}}
 <br>

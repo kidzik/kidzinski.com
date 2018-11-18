@@ -1,34 +1,52 @@
 +++
 # Date this page was created.
-date = "2016-04-27"
+date = "2018-11-15"
 
 # Project title.
-title = "DeepArt - Neural style platform"
+title = "fcomplete"
 
 # Project summary to display on homepage.
-summary = "Computational methods for transfering a painting style to any photo"
+summary = "Statistical software for sparse longitudinal data"
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "mini-headers/deepart.jpg"
+image_preview = "mini-headers/grouped.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["deep-learning","computer-vision"]
+tags = ["longitudinal-data","statistics"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
 
 # Does the project detail page use math formatting?
-math = false
+math = true
 
 # Optional featured image (relative to `static/img/` folder).
-[header]
-image = "headers/deepart.jpg"
-caption = "Tübingen"
+# [header]
+# image = "headers/deepart.jpg"
+# caption = ""
 
 +++
 
-Astonishing results from the [original style transfer paper](https://arxiv.org/pdf/1508.06576.pdf) motivated me and Michał Warchoł to implement the first transfer platform and make it available to the public. After the prompt success we joined the forces with the authors of the orginal algorithm (Leon Gatys, Alexander Ecker and Mathias Bethge) and we continued working together on delivering tools for creating artworks within a few clicks. Visit [deepart.io](https://deepart.io/) and try it out!
+Suppose we observe N subjects, each subject at multiple timepoints and we want to estimate a trajectory of progression of measurements in individual subjects. For example, suppose you observe BMI of N children at different ages, as presented below
 
-{{< youtube olj6rktnr40 >}}
-<br>
+<p align="center">
+   <img src="https://s3-eu-west-1.amazonaws.com/kidzinski/kidzinski/fcomplete/grouped.png" width=450 />
+</div>
+
+Here, the connected dots come from individual subjects and the black thick line corresponds to the population mean.
+
+In this package we follow the methodology from [Kidziński, Hastie (2018)](https://arxiv.org/abs/1809.08771) to fit trajectories using matrix completion. To this end, we discretize the time grid some continous basis and find a low-rank decomposition of the dense matrix.
+
+![Matrix completion and sparse longitudinal completion](https://s3-eu-west-1.amazonaws.com/kidzinski/kidzinski/fcomplete/intro-1.png)
+
+In the classical matrix completion, we look for matrices `W` and `A` that fit the observed points in `Y` (green points in the image above). In our method, in order to impose smoothness, we additionaly assume the basis `B` and again we look for the reprezentation minimizing the errror. 
+
+The interface of the package is based on the mixed-effect models in `R`. In particular, if we are given temporal observations `Y` in the long format with columns `id`, `age` and `bmi`, while additional covariates `X`, constant over time are given as a data frame with columns `id` and, say, `gender`, we can fit the model by writing
+
+```R
+model = fregression(bmi ~ age + gender | id, data = Y, covariates = X)
+print(model)
+```
+
+For more information, please refer to [the manual](https://s3-eu-west-1.amazonaws.com/kidzinski/kidzinski/fcomplete/fcomplete.pdf) and to [vignettes](https://github.com/kidzik/fcomplete/tree/master/vignettes).

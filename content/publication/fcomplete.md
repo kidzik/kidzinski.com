@@ -1,9 +1,9 @@
 +++
-title = "Dynamic Functional Principal Component"
-date = "2015-06-02"
+title = "Longitudinal data analysis using matrix completion"
+date = "2018-11-15"
 
 # Authors. 
-authors = ["Siegfried Hörmann", "Łukasz Kidziński", "Marc Hallin"]
+authors = ["Łukasz Kidziński", "Trevor Hastie"]
 
 # Publication type.
 # Legend:
@@ -17,12 +17,12 @@ authors = ["Siegfried Hörmann", "Łukasz Kidziński", "Marc Hallin"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Journal of the Royal Statistical Society: Series B (JRSSB)*"
-publication_short = "In *JRSSB*"
+publication = "Under review"
+publication_short = "Under review"
 
 # Abstract and optional shortened version.
-abstract = "In this paper, we address the problem of dimension reduction for time series of functional data ($X_t$: $t$ ∈ $Z$). Such functional time series frequently arise, e.g., when a continuous-time process is segmented into some smaller natural units, such as days. Then each $X_t$ represents one intraday curve. We argue that functional principal component analysis (FPCA), though a key technique in the field and a benchmark for any competitor, does not provide an adequate dimension reduction in a time-series setting. FPCA indeed is a static procedure which ignores the essential information provided by the serial dependence structure of the functional data under study. Therefore, inspired by Brillinger's theory of dynamic principal components, we propose a dynamic version of FPCA, which is based on a frequency-domain approach. By means of a simulation study and an empirical illustration, we show the considerable improvement the dynamic approach entails when compared to the usual static procedure."
-abstract_short = "In this paper, we address the problem of dimension reduction for time series of functional data ($X_t$: $t$ ∈ $Z$). Such functional time series frequently arise, e.g., when a continuous-time process is segmented into some smaller natural units, such as days."
+abstract = "In clinical practice and biomedical research, measurements are often collected sparsely and irregularly in time while the data acquisition is expensive and inconvenient. Examples include measurements of spine bone mineral density, cancer growth through mammography or biopsy, a progression of defect of vision, or assessment of gait in patients with neurological disorders. Since the data collection is often costly and inconvenient, estimation of progression from sparse observations is of great interest for practitioners.From the statistical standpoint, such data is often analyzed in the context of a mixed-effect model where time is treated as both random and fixed effect. Alternatively, researchers analyze Gaussian processes or functional data where observations are assumed to be drawn from a certain distribution of processes. These models are flexible but rely on probabilistic assumptions and require very careful implementation. In this study, we propose an alternative elementary framework for analyzing longitudinal data, relying on matrix completion. Our method yields point estimates of progression curves by iterative application of the SVD. Our framework covers multivariate longitudinal data, regression and can be easily extended to other settings. We apply our methods to understand trends of progression of motor impairment in children with Cerebral Palsy. Our model approximates individual progression curves and explains 30% of the variability. Low-rank representation of progression trends enables discovering that subtypes of Cerebral Palsy exhibit different progression trends."
+abstract_short = "In clinical practice and biomedical research, measurements are often collected sparsely and irregularly in time while the data acquisition is expensive and inconvenient. We propose an alternative elementary framework for analyzing longitudinal data, relying on matrix completion."
 
 # Featured image thumbnail (optional)
 image_preview = ""
@@ -36,11 +36,11 @@ selected = true
 # projects = ["time-series","functional-data"]
 
 # Links (optional).
-url_pdf = "http://onlinelibrary.wiley.com/doi/10.1111/rssb.12076/abstract"
-url_preprint = "https://arxiv.org/abs/1210.7192"
-url_code = "https://github.com/kidzik/freqdom"
+url_pdf = "https://arxiv.org/pdf/1809.08771.pdf"
+url_preprint = "https://arxiv.org/abs/1809.08771"
+url_code = "https://github.com/kidzik/fcomplete"
 # url_dataset = "#"
-url_project = "https://cran.r-project.org/web/packages/freqdom/index.html"
+url_project = "https://github.com/kidzik/fcomplete"
 # url_slides = "#"
 # url_video = "#"
 # url_poster = "#"
