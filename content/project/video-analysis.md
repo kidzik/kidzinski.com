@@ -28,7 +28,7 @@ math = false
 
 +++
 
-Astonishing results from the [original style transfer paper](https://arxiv.org/pdf/1508.06576.pdf) motivated me and Michał Warchoł to implement the first transfer platform and make it available to the public. After the prompt success we joined the forces with the authors of the orginal algorithm (Leon Gatys, Alexander Ecker and Mathias Bethge) and we continued working together on delivering tools for creating artworks within a few clicks. Visit [deepart.io](https://deepart.io/) and try it out!
+Stroke, Parkinson's disease, cerebral palsy, multiple sclerosis, and other neurological and orthopedic conditions cause movement impairments that fundamentally limit patients' daily function and social participation. Quantitative assessment of movement is critical to medical decision making, but is currently possible only with expensive optical motion capture systems and highly-trained personnel, raising the cost of, and severely restricting access to this diagnostic data. The result of this constraint is limited and socio-economically unbalanced utilization of quantitative motion analyisis. These restrictions hinder early detection of disease, access to expert advice, large-scale research, and routine pre- and post-treatment monitoring. We propose a method for estimating a variety of clinically relevant movement parameters from a video of a patient, allowing for quantitative gait analysis using commodity mobile devices.
 
 {{< youtube tqMDu6jYHLM >}}
 <br>
