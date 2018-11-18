@@ -28,7 +28,7 @@ abstract_short = "Orchestration load is the effort a teacher spends in coordinat
 image_preview = ""
 
 # Is this a selected publication? (true/false)
-selected = true
+selected = false
 
 # Projects (optional).
 #   Associate this publication with one or more of your projects.

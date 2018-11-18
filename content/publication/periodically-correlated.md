@@ -17,8 +17,8 @@ authors = ["Łukasz Kidziński", "Piotr Kokoszka", "Neda Mohammadi Jouzdani"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "in progress"
-publication_short = "in progress"
+publication = "Journal of Time Series Analysis"
+publication_short = "Journal of Time Series Analysis"
 
 # Abstract and optional shortened version.
 abstract = "Within the framework of functional data analysis, we develop principal component analysis for periodically correlated time series of functions. We define the components of the above analysis including periodic, operator-valued filters, score processes and the inversion formulas. We show that these objects are defined via convergent series under a simple condition requiring summability of the Hilbert-Schmidt norms of the filter coefficients, and that they poses optimality properties. We explain how the Hilbert space theory reduces to an approximate finite-dimensional setting which is implemented in a custom build R package. A data example and a simulation study show that the new methodology is superior to existing tools if the functional time series exhibit periodic characteristics. "
@@ -37,7 +37,7 @@ selected = true
 
 # Links (optional).
 url_preprint = "https://arxiv.org/pdf/1612.00040.pdf"
-url_pdf = ""
+url_pdf = "https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12283"
 url_code = "https://github.com/kidzik/pcdpca"
 # url_dataset = "#"
 url_project = "https://cran.r-project.org/web/packages/pcdpca/index.html"

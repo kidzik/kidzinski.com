@@ -15,6 +15,8 @@ image_preview = "mini-headers/brain.jpg"
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags = ["deep-learning","computer-vision"]
 
+filter = 0
+
 # Optional external URL for project (replaces project detail page).
 external_link = ""
 

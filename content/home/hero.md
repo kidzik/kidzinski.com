@@ -4,7 +4,7 @@ widget = "hero"
 active = true
 date = 2017-10-15
 
-title = "Mathematician"
+title = "Statistician"
 
 # Order that this section will appear in.
 weight = 3
@@ -24,7 +24,7 @@ weight = 3
   label = '<i class="fa fa-download"></i> Download my latest CV'
 +++
 
-Designing new tools for [high-dimensional time series](https://cran.r-project.org/web/packages/freqdom/index.html). <br> Applying deep reinforcement learning in [biomechanics](http://github.com/stanfordnmbl/osim-rl) and computer vision in [movement analysis](https://www.youtube.com/watch?v=SjPP5x1csOc). <br> A co-founder of [DeepArt](https://deepart.io/) - the neural style transfer company. <br>Constantly looking for new opportunities and challenges
+Designing new machine learning tools for [high-dimensional time series](https://cran.r-project.org/web/packages/freqdom/index.html) and [longitudinal data](https://github.com/kidzik/fcomplete). <br> Applying [deep reinforcement learning](http://github.com/stanfordnmbl/osim-rl) and [computer vision](https://drive.google.com/open?id=16bm1t38pCZjxmhNEPcoZs-0bo8CAdbr0) in biomechanics. <br> A co-founder of [DeepArt](https://deepart.io/) - the neural style transfer company. <br>Constantly looking for new opportunities and challenges
 :rocket:
 <br>
 <!--br>
