@@ -32,7 +32,7 @@ Suppose we observe N subjects, each subject at multiple timepoints and we want t
 
 <p align="center">
    <img src="https://s3-eu-west-1.amazonaws.com/kidzinski/kidzinski/fcomplete/grouped.png" width=450 />
-</div>
+</p>
 
 Here, the connected dots come from individual subjects and the black thick line corresponds to the population mean.
 
