@@ -19,13 +19,14 @@ weight = 3
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
 #   Deactivate by commenting out parameters, prefixing lines with `#`.
-[cta]
-  url = "http://kidzinski.com/Lukasz-Kidzinski-CV.pdf"
-  label = '<i class="fa fa-download"></i> Download my latest CV'
+# [cta]
+#   url = "http://kidzinski.com/Lukasz-Kidzinski-CV.pdf"
+#   label = '<i class="fa fa-download"></i> Download my latest CV'
 +++
 
-Designing new machine learning tools for [high-dimensional time series](https://cran.r-project.org/web/packages/freqdom/index.html) and [longitudinal data](https://github.com/kidzik/fcomplete). <br> Applying [deep reinforcement learning](http://github.com/stanfordnmbl/osim-rl) and [computer vision](https://drive.google.com/open?id=16bm1t38pCZjxmhNEPcoZs-0bo8CAdbr0) in biomechanics. <br> A co-founder of [DeepArt](https://deepart.io/) - the neural style transfer company. <br>Constantly looking for new opportunities and challenges
-:rocket:
+Automating processes in medical imaging using deep learning at [Saliency.ai](http://saliency.ai).
+<!--Designing new machine learning tools for [high-dimensional time series](https://cran.r-project.org/web/packages/freqdom/index.html) and [longitudinal data](https://github.com/kidzik/fcomplete). <br> Applying [deep reinforcement learning](http://github.com/stanfordnmbl/osim-rl) and [computer vision](https://drive.google.com/open?id=16bm1t38pCZjxmhNEPcoZs-0bo8CAdbr0) in biomechanics. <br> A co-founder of [DeepArt](https://deepart.io/) - the neural style transfer company. <br>Constantly looking for new opportunities and challenges
+:rocket:-->
 <br>
 <!--br>
 <small><a id="academic-release" href="https://sourcethemes.com/academic/tags/updates">Latest release</a></small>

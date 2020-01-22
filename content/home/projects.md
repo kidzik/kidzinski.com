@@ -5,7 +5,7 @@ widget = "projects"
 active = true
 date = "2016-04-20T00:00:00"
 
-title = "Recent projects"
+title = "Past academic projects"
 # subtitle = "My main research involves development of new high-dimensional statistical tools. <br><br>However, I am also involved in a variety of other projects involving cutting-edge computational methods."
 
 # Order that this section will appear in.

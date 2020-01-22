@@ -10,11 +10,11 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Statistical learning",
-    "High dimensional statistics",
+    "Biomedical data science",
+    "High-dimensional methods",
+    "Medical imaging",
     "Time series analysis",
     "Reinforcement learning",
-    "Biomedical data science",
   ]
 
 # List your qualifications (such as academic degrees).
@@ -46,8 +46,8 @@ weight = 5
 
 # Biography
 
-Łukasz Kidziński is a researcher in the [Mobilize Center](http://mobilize.stanford.edu/) at [Stanford](http://stanford.edu/), working on the intersection of computer science, statistics, and biomechanics. Previously a researcher in the [CHILI group](https://chili.epfl.ch/), Computer-Human Interaction in Learning and Instruction, at the [EPFL](https://www.epfl.ch/).
+Łukasz Kidziński is a co-founder of [Saliency.ai](http://saliency.ai/), a medical imaging platform, and a researcher in the [Mobilize Center](http://mobilize.stanford.edu/) at [Stanford](http://stanford.edu/), working on the intersection of computer science, statistics, and biomechanics. Previously a researcher in the [CHILI group](https://chili.epfl.ch/), Computer-Human Interaction in Learning and Instruction, at the [EPFL](https://www.epfl.ch/).
 
-He obtain his Ph.D. training at [Université Libre de Bruxelles](http://ulb.ac.be/) in mathematical statistics, working on time series analysis and functional data. He obtained two master degrees, in mathematics and in computer science, from the [University of Warsaw](http://uw.edu.pl/).
+He obtain his Ph.D. at [Université Libre de Bruxelles](http://ulb.ac.be/) in mathematical statistics, working on time series analysis and functional data. He obtained two master degrees, in mathematics and in computer science, from the [University of Warsaw](http://uw.edu.pl/).
 
-His research interest include machine learning, data mining, big data, time series analysis and applied statistics. His main area of applications are biomedical data science, biomechanics and computer-human interactions.
+<!--His research include machine learning, data mining, big data, time series analysis and applied statistics. His main area of applications are biomedical data science, biomechanics and computer-human interactions.-->
