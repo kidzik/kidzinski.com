@@ -16,7 +16,7 @@
   <meta property="og:image" content="{{ "img/profile.jpg" | absURL }}">
   <meta property="og:image:alt" content="Portrait of Łukasz Kidziński">
   <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#f6f5ef">
+  <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ "css/site.css" | relURL }}">
   <script src="{{ "js/site.js" | relURL }}" defer></script>
@@ -27,19 +27,18 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="shell header-inner">
-      <a class="wordmark" href="{{ site.Home.RelPermalink }}" aria-label="Łukasz Kidziński, home"><span class="wordmark-dot" aria-hidden="true"></span>Łukasz Kidziński<span class="wordmark-period">.</span></a>
+      <a class="wordmark" href="{{ site.Home.RelPermalink }}" aria-label="Łukasz Kidziński, home">Łukasz Kidziński</a>
       <nav aria-label="Main navigation">
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" hidden>Menu <span aria-hidden="true">+</span></button>
         <div class="nav-links" id="nav-links">
-          <a href="{{ site.Home.RelPermalink }}#work">Work</a>
+          <a href="{{ site.Home.RelPermalink }}#press">Press</a>
           <a href="{{ site.Home.RelPermalink }}#research">Research</a>
-          <a href="{{ site.Home.RelPermalink }}#about">About</a>
-          <a class="nav-contact" href="{{ site.Home.RelPermalink }}#contact">Say hello <span aria-hidden="true">↗</span></a>
+          <a href="{{ site.Home.RelPermalink }}#publications_selected">Publications</a>
+          <a href="{{ site.Home.RelPermalink }}#contact">Contact</a>
         </div>
       </nav>
     </div>
   </header>
   <main id="main" tabindex="-1">{{ block "main" . }}{{ end }}</main>
-  <footer class="site-footer shell"><span>© {{ now.Year }} Łukasz Kidziński</span><span>Curiosity, in good company.</span><a href="{{ site.Params.github }}">GitHub <span aria-hidden="true">↗</span></a></footer>
+  <footer class="site-footer shell"><span>© {{ now.Year }} Łukasz Kidziński</span><a href="{{ site.Params.github }}">GitHub</a></footer>
 </body>
 </html>

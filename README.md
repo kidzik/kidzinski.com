@@ -22,8 +22,9 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 ## Editing
 
-- `data/home.toml`: homepage introduction and featured research projects.
-- `layouts/home.html`: current work, biography, education, contact, and featured publication selection.
+- `data/home.toml`: personal introduction and featured research projects.
+- `data/press.toml`: press coverage, with six featured links and seven additional outlets from the original site.
+- `layouts/home.html`: biography, press, research, education, contact, and featured publication selection.
 - `content/project/`: original research pages, with their existing URLs.
 - `content/publication/`: publication records, authors, abstracts, and paper/code links.
 - `config.toml`: canonical URL, contact address, and social profiles.
@@ -32,7 +33,7 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 The older Academic homepage widgets, theme tutorials, and sample talks remain on disk for reference and are excluded from the new build. The original CV remains available at `/Lukasz-Kidzinski-CV.pdf`; it is not advertised as a current CV. Existing homepage anchors for projects, publications, about, teaching, and contact remain available.
 
-The homepage and navigation work without JavaScript. Search and the collapsible mobile menu progressively enhance those pages. Project videos link to YouTube without loading third-party embeds.
+The homepage uses a plain introduction, a small portrait, press coverage, and compact research and publication lists. Gosset is mentioned once in the biography. Navigation is always visible, including on mobile, and works without JavaScript. Publication search progressively enhances the archive. Project videos link to YouTube without loading third-party embeds.
 
 ## Publishing
 

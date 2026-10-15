@@ -6,7 +6,7 @@ publishDir = "public"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "AI researcher and co-founder of Gosset. Working at the intersection of machine learning, statistics, and human health."
+  description = "Łukasz Kidziński. Research in machine learning, statistics, and biomechanics. Publications, projects, and press coverage."
   email = "lukasz.kidzinski@stanford.edu"
   github = "https://github.com/kidzik"
   scholar = "https://scholar.google.com/citations?user=7rvNQJoAAAAJ"
