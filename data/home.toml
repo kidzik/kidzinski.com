@@ -1,4 +1,4 @@
-intro = "My research spans machine learning, statistics, and biomechanics, including movement analysis from video, musculoskeletal simulation, and functional time series."
+intro = "I started in mathematical statistics, then did research at EPFL and Stanford on functional time series, learning analytics, and movement analysis from video. Alongside that research, I co-founded Saliency.ai, a medical imaging platform, and later worked as a Director of AI at Clario."
 
 [[projects]]
   slug = "video-analysis"
