@@ -1,4 +1,4 @@
-intro = "I started in mathematical statistics, then did research at EPFL and Stanford on functional time series, learning analytics, and movement analysis from video. Alongside that research, I co-founded Saliency.ai, a medical imaging platform, and later worked as a Director of AI at Clario."
+intro = "My academic work is focused on machine learning and statistics, particularly their applications to biomechanics and health. At EPFL and Stanford, I worked on functional time series, learning analytics, and movement analysis from video. I’ve also brought that research background into healthcare software as a co-founder of Saliency.ai, a medical imaging platform, and a Director of AI at Clario."
 
 [[projects]]
   slug = "video-analysis"
