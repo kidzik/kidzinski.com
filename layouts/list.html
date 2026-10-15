@@ -4,9 +4,9 @@
   <p class="eyebrow">{{ if eq .Section "publication" }}Papers & methods{{ else }}Research & open source{{ end }}</p>
   <h1>{{ if eq .Section "project" }}Projects{{ else }}{{ .Title }}{{ end }}</h1>
   {{ if eq .Section "publication" }}
-    <p class="archive-intro">Selected work in machine learning, biomechanics, and statistics. <a href="{{ site.Params.scholar }}">Full record on Google Scholar</a></p>
+    <p class="archive-intro">Publications in machine learning, statistics, health, and learning analytics. <a href="{{ site.Params.scholar }}">Google Scholar</a></p>
     <div class="publication-search" hidden><label for="publication-search">Find a publication</label><input id="publication-search" type="search" placeholder="Search by title, author, or year…" autocomplete="off"><p id="publication-count" role="status" aria-live="polite"></p></div>
-    <div class="publication-list">{{ range .RegularPages.ByDate.Reverse }}{{ partial "publication-row.html" . }}{{ end }}</div><p class="no-results" hidden>No publications match your search. Try a different title, author, or year.</p>
+    <div class="publication-list">{{ range .RegularPages.ByDate.Reverse }}{{ partial "publication-row.html" (dict "paper" . "compact" true) }}{{ end }}</div><p class="no-results" hidden>No publications match your search. Try a different title, author, or year.</p>
   {{ else }}
     <p class="archive-intro">An archive of experiments, tools, and collaborations.</p>
     <div class="project-archive">{{ range .RegularPages.ByDate.Reverse }}<article><div><p class="eyebrow">{{ .Date.Year }}</p><h2><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">↗</span></a></h2><p>{{ .Params.summary }}</p></div>{{ with .Params.image_preview }}<img src="{{ printf "img/%s" . | relURL }}" alt="" loading="lazy" width="240" height="150">{{ end }}</article>{{ end }}</div>

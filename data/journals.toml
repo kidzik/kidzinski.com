@@ -40,3 +40,152 @@ image = "nature.png"
 width = 32
 height = 32
 source = "https://www.nature.com/srep/"
+
+[radiology-ai]
+image = "rsna.svg"
+width = 160
+height = 44
+source = "https://www.rsna.org/journals"
+kind = "wordmark"
+
+[cancer-discovery]
+image = "cancer-discovery.jpg"
+width = 400
+height = 400
+source = "https://x.com/CD_AACR"
+
+[jneuroengineering]
+image = "jneuroengineering.webp"
+width = 88
+height = 124
+source = "https://link.springer.com/journal/12984"
+
+[jcal]
+image = "jcal.png"
+width = 595
+height = 783
+source = "https://www.lexialearning.com/resources/research/journal-computer-assisted-learning-2020"
+
+[jtsa]
+image = "jtsa.jpg"
+width = 1024
+height = 512
+source = "https://sticerd.lse.ac.uk/_new/our-work/econometrics/"
+kind = "wordmark"
+
+[scandinavian-statistics]
+image = "wiley.png"
+width = 32
+height = 32
+source = "https://onlinelibrary.wiley.com/journal/14679469"
+
+[plos-one]
+image = "plos-one.png"
+width = 413
+height = 203
+source = "https://journals.plos.org/plosone/"
+kind = "wordmark"
+
+[smart-learning]
+image = "smart-learning.webp"
+width = 88
+height = 116
+source = "https://link.springer.com/journal/40561"
+
+[osteoarthritis-cartilage]
+image = "osteoarthritis-cartilage.jpg"
+width = 576
+height = 768
+source = "https://www.sciencedirect.com/journal/osteoarthritis-and-cartilage"
+
+[journal-biomechanics]
+image = "journal-biomechanics.jpg"
+width = 576
+height = 768
+source = "https://www.sciencedirect.com/journal/journal-of-biomechanics"
+
+[gynecologic-oncology]
+image = "gynecologic-oncology.jpg"
+width = 572
+height = 768
+source = "https://www.sciencedirect.com/journal/gynecologic-oncology"
+
+[jmlr]
+image = "jmlr.png"
+width = 32
+height = 32
+source = "https://www.jmlr.org/"
+
+[cartilage]
+image = "sage.png"
+width = 73
+height = 72
+source = "https://journals.sagepub.com/home/car"
+
+[ieee-tlt]
+image = "ieee-computer.png"
+width = 32
+height = 32
+source = "https://www.computer.org/csdl/journal/lt"
+
+[frontiers-immunology]
+image = "frontiers.png"
+width = 32
+height = 32
+source = "https://www.frontiersin.org/journals/immunology"
+
+[ceej]
+image = "ceej.jpg"
+width = 32
+height = 32
+source = "https://ceej.wne.uw.edu.pl/"
+
+[nips-2017]
+image = "nips-2017.webp"
+width = 72
+height = 108
+source = "https://link.springer.com/book/10.1007/978-3-319-94042-7"
+
+[neurips-2018]
+image = "neurips-2018.webp"
+width = 72
+height = 108
+source = "https://link.springer.com/book/10.1007/978-3-030-29135-8"
+
+[ec-tel-2015]
+image = "ec-tel-2015.webp"
+width = 72
+height = 109
+source = "https://link.springer.com/book/10.1007/978-3-319-24258-3"
+
+[ec-tel-2016]
+image = "ec-tel-2016.webp"
+width = 72
+height = 109
+source = "https://link.springer.com/book/10.1007/978-3-319-45153-4"
+
+[smart-learning-book]
+image = "smart-learning-book.webp"
+width = 72
+height = 108
+source = "https://link.springer.com/book/10.1007/978-981-287-868-7"
+
+[edm]
+image = "edm.png"
+width = 560
+height = 267
+source = "https://educationaldatamining.org/"
+kind = "wordmark"
+
+[ceur]
+image = "ceur.png"
+width = 390
+height = 100
+source = "https://ceur-ws.org/Vol-1579/"
+kind = "wordmark"
+
+[arxiv]
+image = "arxiv.png"
+width = 32
+height = 32
+source = "https://arxiv.org/"

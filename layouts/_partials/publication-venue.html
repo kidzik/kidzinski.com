@@ -1,6 +1,10 @@
 {{ with .Params.publication }}
 <div class="publication-venue">
-  {{ with $.Params.journal }}{{ with index hugo.Data.journals . }}<img class="journal-logo{{ if eq .kind "wordmark" }} journal-logo--wordmark{{ end }}" src="{{ printf "img/journals/%s" .image | relURL }}" width="{{ .width }}" height="{{ .height }}" alt="" loading="lazy">{{ end }}{{ end }}
+  {{ with $.Params.journal }}{{ with index hugo.Data.journals . }}
+    {{ $src := printf "img/journals/%s" .image | relURL }}
+    {{ with resources.Get (printf "img/journals/%s" .image) }}{{ $src = (.Fit "112x88 webp q85").RelPermalink }}{{ end }}
+    <img class="journal-logo{{ if eq .kind "wordmark" }} journal-logo--wordmark{{ end }}" src="{{ $src }}" width="{{ .width }}" height="{{ .height }}" alt="" loading="lazy">
+  {{ end }}{{ end }}
   <span>{{ if eq . "Under review" }}Preprint{{ else }}{{ . | markdownify }}{{ end }}{{ with $.Params.citation_details }} <span class="citation-details">{{ . }}</span>{{ end }}</span>
 </div>
 {{ end }}

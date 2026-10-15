@@ -1,9 +1,11 @@
 +++
-title = "Google Street View image of a house predicts car accident risk of its resident"
-date = "2018-11-15"
+citation_details = "6(53), 151–163"
+journal = "ceej"
+title = "Google Street View image predicts car accident risk"
+date = "2019-01-01"
 
 # Authors. 
-authors = ["Kinga Kita-Wojciechowska","Lukas Kidzinski"]
+authors = ["Kinga Kita-Wojciechowska", "Lukas Kidzinski"]
 
 # Publication type.
 # Legend:
@@ -17,7 +19,7 @@ authors = ["Kinga Kita-Wojciechowska","Lukas Kidzinski"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Under review"
+publication = "Central European Economic Journal"
 publication_short = "Under review"
 
 # Abstract and optional shortened version.
@@ -37,7 +39,7 @@ selected = true
 projects = ["street-view"]
 
 # Links (optional).
-url_pdf = "https://arxiv.org/pdf/1904.05270.pdf"
+url_pdf = "https://doi.org/10.2478/ceej-2019-0011"
 url_preprint = "https://arxiv.org/abs/1904.05270"
 # url_code = "https://github.com/kidzik/fcomplete"
 # url_dataset = "#"

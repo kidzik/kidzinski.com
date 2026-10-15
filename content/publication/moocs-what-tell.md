@@ -1,6 +1,8 @@
 +++
-title = "MOOC video interaction patterns: What do they tell us?"
-date = "2015-06-02"
+citation_details = "197–210"
+journal = "ec-tel-2015"
+title = "MOOC Video Interaction Patterns: What Do They Tell Us?"
+date = "2015-11-26"
 
 # Authors. 
 authors = ["Nan Li", "Lukas Kidzinski", "Patrick Jermann", "Pierre Dillenbourg"]
@@ -14,10 +16,10 @@ authors = ["Nan Li", "Lukas Kidzinski", "Patrick Jermann", "Pierre Dillenbourg"]
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["1"]
+publication_types = ["6"]
 
 # Publication name and optional abbreviated version.
-publication = "Design for teaching and learning in a networked world"
+publication = "EC-TEL · Design for Teaching and Learning in a Networked World"
 publication_short = "Design for teaching and learning in a networked world"
 
 # Abstract and optional shortened version.
@@ -37,7 +39,7 @@ selected = false
 
 # Links (optional).
 url_preprint = "https://infoscience.epfl.ch/record/208845/files/typeinst_1.pdf"
-url_pdf = ""
+url_pdf = "https://doi.org/10.1007/978-3-319-24258-3_15"
 url_code = ""
 # url_dataset = "#"
 url_project = ""

@@ -1,4 +1,11 @@
+{{ $paper := .paper }}
 <article class="publication-row" data-publication>
-  <span class="publication-year">{{ .Date.Year }}</span>
-  <div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p class="publication-authors">{{ delimit .Params.authors ", " }}</p>{{ partial "publication-venue.html" . }}{{ partial "publication-links.html" . }}</div>
+  <span class="publication-year">{{ $paper.Date.Year }}</span>
+  <div>
+    <h3><a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a></h3>
+    {{ if and .compact (gt (len $paper.Params.authors) 8) }}
+      <details class="publication-authors"><summary>{{ delimit (first 5 $paper.Params.authors) ", " }}, et al.</summary><p>{{ delimit $paper.Params.authors ", " }}</p></details>
+    {{ else }}<p class="publication-authors">{{ delimit $paper.Params.authors ", " }}</p>{{ end }}
+    {{ partial "publication-venue.html" $paper }}{{ partial "publication-links.html" $paper }}
+  </div>
 </article>

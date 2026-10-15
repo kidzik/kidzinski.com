@@ -1,7 +1,8 @@
 +++
+citation_details = "1, 42"
 journal = "npj-digital-medicine"
 title = "Automated human-level diagnosis of dysgraphia using a consumer tablet"
-date = "2018-11-05"
+date = "2018-08-31"
 
 # Authors. 
 authors = ["Thibault Asselborn", "Thomas Gargot", "Lukas Kidzinski", "Wafa Johal", "David Cohen", "Caroline Jolly", "Pierre Dillenbourg" ]

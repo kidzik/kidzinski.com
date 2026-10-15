@@ -24,13 +24,15 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 - `data/home.toml`: personal introduction and featured research projects.
 - `data/press.toml`: all 13 press outlets, their original logos, and coverage links.
-- `data/journals.toml`: local journal marks and cover badges displayed beside journal names.
+- `data/journals.toml`: local journal marks, publisher marks, and proceedings cover badges displayed beside venue names.
 - `layouts/home.html`: biography, press, research, education, contact, and featured publication selection.
 - `content/project/`: original research pages, with their existing URLs.
 - `content/publication/`: publication records, authors, abstracts, and paper/code links.
 - `config.toml`: canonical URL, contact address, and social profiles.
 - `static/css/site.css` and `static/js/site.js`: responsive styling, mobile navigation, and publication search.
 - `static/img/modern/`: WebP versions of existing site imagery; originals remain in `static/img/`.
+- `assets/img/journals/`: larger journal assets, resized by Hugo into small WebP derivatives.
+- `docs/publication-sources.md`: Scholar coverage and citation sources for the expanded archive.
 
 The older Academic homepage widgets, theme tutorials, and sample talks remain on disk for reference and are excluded from the new build. The original CV remains available at `/Lukasz-Kidzinski-CV.pdf`; it is not advertised as a current CV. Existing homepage anchors for projects, publications, about, teaching, and contact remain available.
 
@@ -53,4 +55,4 @@ The research archive, education, original portrait, project imagery, publication
 - [Matrix completion, JCGS 33(2), 551–566 (2024)](https://doi.org/10.1080/10618600.2023.2257257) and [Crossref metadata](https://api.crossref.org/works/10.1080/10618600.2023.2257257): final title and DOI, November 15, 2023 online publication, and April 2, 2024 issue date. The existing `/publication/fcomplete/` URL is preserved.
 - [Journal asset sources](docs/journal-assets.md): official marks and society-provided cover badges stored locally.
 
-Older publication records are retained; a historical “Under review” label is displayed as “Preprint” where the source already links to a preprint. This is a selected archive, not a complete or automatically synchronized bibliography; Google Scholar is linked for the full record.
+The publications archive contains 45 distinct records checked against Google Scholar and primary publication metadata. Duplicate citations and superseded preprints are consolidated into published versions where available; the Street View record now links to its published journal article. The homepage retains its five-paper selection. See [publication sources](docs/publication-sources.md) for the coverage criteria and full citations. The archive is maintained manually, with Google Scholar linked for the full record.

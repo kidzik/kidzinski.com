@@ -1,5 +1,7 @@
 +++
-title = "Estimation in functional lagged regression"
+citation_details = "36(4), 541–561"
+journal = "jtsa"
+title = "Estimation in Functional Lagged Regression"
 date = "2015-07-01"
 
 # Authors. 
@@ -17,7 +19,7 @@ authors = ["Siegfried Hörmann", "Lukas Kidzinski", "Piotr Kokoszka"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Journal of time series analysis"
+publication = "Journal of Time Series Analysis"
 publication_short = "Journal of time series analysis"
 
 # Abstract and optional shortened version.
@@ -37,7 +39,7 @@ selected = false
 
 # Links (optional).
 url_preprint = "http://www.stat.colostate.edu/~piotr/dflm.pdf"
-url_pdf = ""
+url_pdf = "https://doi.org/10.1111/jtsa.12114"
 url_code = ""
 # url_dataset = "#"
 url_project = ""

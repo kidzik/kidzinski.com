@@ -1,5 +1,7 @@
 +++
-title = "A note on estimation in Hilbertian linear models"
+citation_details = "42(1), 43–62"
+journal = "scandinavian-statistics"
+title = "A Note on Estimation in Hilbertian Linear Models"
 date = "2015-03-01"
 
 # Authors. 
@@ -17,7 +19,7 @@ authors = ["Siegfried Hörmann", "Lukas Kidzinski"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "Scandinavian journal of statistics"
+publication = "Scandinavian Journal of Statistics"
 publication_short = "Scandinavian journal of statistics"
 
 # Abstract and optional shortened version.
@@ -37,7 +39,7 @@ selected = false
 
 # Links (optional).
 url_preprint = "https://arxiv.org/pdf/1208.2895.pdf"
-url_pdf = ""
+url_pdf = "https://doi.org/10.1111/sjos.12094"
 url_code = ""
 # url_dataset = "#"
 url_project = ""

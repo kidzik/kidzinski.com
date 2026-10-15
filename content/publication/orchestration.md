@@ -1,6 +1,8 @@
 +++
-title = "Orchestration Load Indicators and Patterns: In-the-wild Studies Using Mobile Eye-tracking"
-date = "2017-06-02"
+citation_details = "11(2), 216–229"
+journal = "ieee-tlt"
+title = "Orchestration Load Indicators and Patterns: In-the-Wild Studies Using Mobile Eye-Tracking"
+date = "2018-04-01"
 
 # Authors. 
 authors = ["Luis P. Prieto", "Kshitij Sharma", "Lukas Kidzinski", "Pierre Dillenbourg"]
@@ -14,7 +16,7 @@ authors = ["Luis P. Prieto", "Kshitij Sharma", "Lukas Kidzinski", "Pierre Dillen
 # 4 = Technical report
 # 5 = Book
 # 6 = Book chapter
-publication_types = ["1"]
+publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
 publication = "IEEE Transactions on Learning Technologies"
@@ -37,7 +39,7 @@ selected = false
 
 # Links (optional).
 url_preprint = ""
-url_pdf = ""
+url_pdf = "https://doi.org/10.1109/tlt.2017.2690687"
 url_code = ""
 # url_dataset = "#"
 url_project = ""

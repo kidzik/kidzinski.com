@@ -1,6 +1,8 @@
 +++
-title = "Principal component analysis of periodically correlated functional time series"
-date = "2017-07-01"
+citation_details = "39(4), 502–522"
+journal = "jtsa"
+title = "Principal Components Analysis of Periodically Correlated Functional Time Series"
+date = "2018-07-01"
 
 # Authors. 
 authors = ["Lukas Kidzinski", "Piotr Kokoszka", "Neda Mohammadi Jouzdani"]
@@ -37,7 +39,7 @@ selected = true
 
 # Links (optional).
 url_preprint = "https://arxiv.org/pdf/1612.00040.pdf"
-url_pdf = "https://onlinelibrary.wiley.com/doi/abs/10.1111/jtsa.12283"
+url_pdf = "https://doi.org/10.1111/jtsa.12283"
 url_code = "https://github.com/kidzik/pcdpca"
 # url_dataset = "#"
 url_project = "https://cran.r-project.org/web/packages/pcdpca/index.html"
