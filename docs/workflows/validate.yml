@@ -1,0 +1,43 @@
+name: Validate site
+
+on:
+  push:
+    branches: [master, 'codex/**']
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: '0.168.0'
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          submodules: false
+      - name: Install pinned Hugo release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/hugo"
+          gh release download "v$HUGO_VERSION" --repo gohugoio/hugo --pattern "hugo_${HUGO_VERSION}_linux-amd64.tar.gz" --pattern "hugo_${HUGO_VERSION}_checksums.txt" --dir "$RUNNER_TEMP/hugo"
+          cd "$RUNNER_TEMP/hugo"
+          grep " hugo_${HUGO_VERSION}_linux-amd64.tar.gz$" "hugo_${HUGO_VERSION}_checksums.txt" | sha256sum --check
+          tar -xzf "hugo_${HUGO_VERSION}_linux-amd64.tar.gz" hugo
+          echo "$RUNNER_TEMP/hugo" >> "$GITHUB_PATH"
+      - name: Build without warnings
+        run: hugo --gc --minify --panicOnWarning
+      - name: Check local links and JavaScript
+        run: |
+          python3 scripts/check_links.py
+          node --check static/js/site.js
+      - name: Save built site for review
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: kidzinski-site
+          path: public/
+          retention-days: 14

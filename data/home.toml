@@ -1,0 +1,26 @@
+intro = "My academic work is focused on machine learning and statistics, particularly their applications to biomechanics and health. At EPFL and Stanford, I worked on functional time series, learning analytics, and movement analysis from video. I’ve also brought that research background into healthcare software as a co-founder of Saliency.ai, a medical imaging platform, and a Director of AI at Clario."
+
+[[projects]]
+  slug = "video-analysis"
+  title = "Movement analysis from video"
+  description = "Estimating gait parameters from ordinary video using computer vision."
+  image = "dl-biomechanics.webp"
+  alt = "Video frames with anatomical landmarks overlaid for gait analysis"
+[[projects]]
+  slug = "nips-learning-to-run"
+  title = "Learning to run"
+  description = "Musculoskeletal simulations and the NeurIPS challenges in learning to run and AI for prosthetics."
+  image = "learning-to-run.webp"
+  alt = "Musculoskeletal model running in a simulated environment"
+[[projects]]
+  slug = "deepart"
+  title = "DeepArt"
+  description = "A platform for applying the style of a painting to a photograph."
+  image = "deepart.webp"
+  alt = "A city waterfront rendered in the style of a painting using neural style transfer"
+[[projects]]
+  slug = "street-view"
+  title = "Street View and accident risk"
+  description = "Studying what house images reveal about car accident risk and the implications for privacy."
+  image = "street-view.webp"
+  alt = "Aerial view of a residential neighborhood illustrating the Street View research"

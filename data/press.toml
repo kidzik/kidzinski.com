@@ -1,0 +1,97 @@
+# Coverage and original publication logos retained from the existing website.
+[[coverage]]
+  outlet = "MIT Technology Review"
+  topic = "Street View images and car accident risk"
+  url = "https://www.technologyreview.com/2019/04/30/135556/how-a-google-street-view-image-of-your-house-predicts-your-risk-of-a-car-accident/"
+  logo = "mit1.png"
+  width = 122
+  height = 60
+
+[[coverage]]
+  outlet = "The Guardian"
+  topic = "The implications of predicting accident risk from Street View"
+  url = "https://www.theguardian.com/commentisfree/2019/apr/28/google-street-view-calculate-car-accident-risks-digital-tech"
+  logo = "guardian1.png"
+  width = 182
+  height = 60
+
+[[coverage]]
+  outlet = "TechCrunch"
+  topic = "The Learning to Run challenge at NeurIPS"
+  url = "https://techcrunch.com/2017/08/07/dueling-ais-compete-in-learning-to-walk-secretly-manipulating-images-and-more-at-nips/"
+  logo = "techcrunch.png"
+  width = 88
+  height = 60
+
+[[coverage]]
+  outlet = "Stanford News"
+  topic = "Virtual athletes and musculoskeletal simulation"
+  url = "https://news.stanford.edu/2017/08/07/virtual-competitors-vie-different-kind-athletic-title/"
+  logo = "stanford.png"
+  width = 135
+  height = 60
+
+[[coverage]]
+  outlet = "Live Science"
+  topic = "Turning photographs into paintings with DeepArt"
+  url = "https://www.livescience.com/54415-computer-turns-photos-into-fine-art.html"
+  logo = "livescience.png"
+  width = 106
+  height = 60
+
+[[coverage]]
+  outlet = "Le Temps"
+  topic = "DeepArt et le transfert de style"
+  url = "https://www.letemps.ch/economie/2016/04/11/deepart-transforme-selfies-tableaux-maitres"
+  logo = "letemps.png"
+  width = 95
+  height = 60
+
+[[coverage]]
+  outlet = "Radio-Canada"
+  url = "https://ici.radio-canada.ca/nouvelle/1167301/accident-automobile-prediction-google-street-view-etude-scientifique-assurances"
+  logo = "canada1.png"
+  width = 250
+  height = 47
+
+[[coverage]]
+  outlet = "IEEE GlobalSpec"
+  url = "http://insights.globalspec.com/article/6167/watch-computer-generated-skeletons-run-for-cerebral-palsy"
+  logo = "ieee.png"
+  width = 149
+  height = 60
+
+[[coverage]]
+  outlet = "EPFL News"
+  url = "https://actu.epfl.ch/news/crowdai-the-open-data-science-challenge-platform/"
+  logo = "epfl.png"
+  width = 125
+  height = 60
+
+[[coverage]]
+  outlet = "China Daily"
+  url = "http://usa.chinadaily.com.cn/epaper/2017-08/16/content_30687991.htm"
+  logo = "chinadaily.png"
+  width = 60
+  height = 60
+
+[[coverage]]
+  outlet = "24 heures"
+  url = "https://www.24heures.ch/savoirs/sciences/epfl-algorithme-peindre-photos/story/19574897"
+  logo = "24heures.png"
+  width = 259
+  height = 60
+
+[[coverage]]
+  outlet = "Technologist"
+  url = "http://www.technologist.eu/deepart-the-computer-that-paints-better-than-youdeepart-the-computer-that-paints-your-portrait/"
+  logo = "technologist.png"
+  width = 60
+  height = 60
+
+[[coverage]]
+  outlet = "Stanford Scope"
+  url = "https://scopeblog.stanford.edu/2018/07/11/virtual-athletes-compete-to-take-on-a-medical-challenge/"
+  logo = "scope.jpg"
+  width = 200
+  height = 80
