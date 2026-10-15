@@ -8,6 +8,7 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Łukasz Kidziński. Research in machine learning, statistics, and biomechanics. Publications, projects, and press coverage."
   email = "lukasz.kidzinski@stanford.edu"
+  email_secondary = "lukasz@gosset.ai"
   github = "https://github.com/kidzik"
   scholar = "https://scholar.google.com/citations?user=7rvNQJoAAAAJ"
 

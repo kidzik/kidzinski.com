@@ -1,4 +1,4 @@
-intro = "I’m a researcher working on machine learning, statistics, and biomechanics. My work includes movement analysis from video, musculoskeletal simulation, and functional time series."
+intro = "My research spans machine learning, statistics, and biomechanics, including movement analysis from video, musculoskeletal simulation, and functional time series."
 
 [[projects]]
   slug = "video-analysis"

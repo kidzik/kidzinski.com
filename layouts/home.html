@@ -4,21 +4,11 @@
   <h1 id="intro-title">Łukasz Kidziński</h1>
   <img class="portrait" src="{{ "img/modern/portrait.webp" | relURL }}" width="160" height="160" alt="Łukasz Kidziński" fetchpriority="high">
   <div class="intro-copy">
+    <p id="work">I’m a co-founder of <a href="https://gosset.ai/">Gosset</a>, a pharmaceutical intelligence platform.</p>
     <p>{{ $home.intro }}</p>
-    <p>Previously, I did research at Stanford and EPFL, co-founded Saliency.ai, and was a Director of AI at Clario.</p>
-    <p id="work">I’m currently building <a href="https://gosset.ai/">Gosset</a>, a pharmaceutical intelligence platform.</p>
+    <p>Previously, I co-founded Saliency.ai, was a Director of AI at Clario, and did research at Stanford and EPFL.</p>
     <div class="profile-links"><a href="mailto:{{ site.Params.email }}">Email</a><a href="{{ site.Params.scholar }}">Google Scholar</a><a href="{{ site.Params.github }}">GitHub</a></div>
   </div>
-</section>
-
-<section class="home-section shell" id="press" aria-labelledby="press-title">
-  <h2 id="press-title">Press & coverage</h2>
-  <ul class="press-list">
-    {{ range hugo.Data.press.featured }}
-    <li><a href="{{ .url }}"><span class="press-outlet">{{ .outlet }}</span><span class="press-topic">{{ .topic }}</span></a></li>
-    {{ end }}
-  </ul>
-  <details class="more-coverage"><summary>More coverage</summary><ul>{{ range hugo.Data.press.additional }}<li><a href="{{ .url }}">{{ .outlet }}</a></li>{{ end }}</ul></details>
 </section>
 
 <span class="anchor-alias" id="projects" aria-hidden="true"></span>
@@ -52,5 +42,17 @@
   <details class="teaching" id="teaching"><summary>Past teaching</summary><p>Digital education & learning analytics at EPFL (2014); multivariate analysis (2014) and stochastic models (2012–2013) at ULB.</p></details>
 </section>
 
-<section class="home-section contact-section shell" id="contact" aria-labelledby="contact-title"><h2 id="contact-title">Contact</h2><a class="contact-email" href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></section>
+<section class="home-section shell" id="press" aria-labelledby="press-title">
+  <h2 id="press-title">Press & coverage</h2>
+  <ul class="press-logos">
+    {{ range hugo.Data.press.coverage }}
+    <li><a href="{{ .url }}" title="{{ .outlet }}{{ with .topic }}: {{ . }}{{ end }}"><img src="{{ printf "img/logos/%s" .logo | relURL }}" alt="{{ .outlet }}" width="{{ .width }}" height="{{ .height }}" loading="lazy"></a></li>
+    {{ end }}
+  </ul>
+</section>
+
+<section class="home-section contact-section shell" id="contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">Contact</h2>
+  <ul class="contact-emails"><li><a class="contact-email" href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></li><li><a class="contact-email" href="mailto:{{ site.Params.email_secondary }}">{{ site.Params.email_secondary }}</a></li></ul>
+</section>
 {{ end }}

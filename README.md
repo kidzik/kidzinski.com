@@ -23,7 +23,7 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 ## Editing
 
 - `data/home.toml`: personal introduction and featured research projects.
-- `data/press.toml`: press coverage, with six featured links and seven additional outlets from the original site.
+- `data/press.toml`: all 13 press outlets, their original logos, and coverage links.
 - `layouts/home.html`: biography, press, research, education, contact, and featured publication selection.
 - `content/project/`: original research pages, with their existing URLs.
 - `content/publication/`: publication records, authors, abstracts, and paper/code links.
@@ -33,7 +33,7 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 The older Academic homepage widgets, theme tutorials, and sample talks remain on disk for reference and are excluded from the new build. The original CV remains available at `/Lukasz-Kidzinski-CV.pdf`; it is not advertised as a current CV. Existing homepage anchors for projects, publications, about, teaching, and contact remain available.
 
-The homepage uses a plain introduction, a small portrait, press coverage, and compact research and publication lists. Gosset is mentioned once in the biography. Navigation is always visible, including on mobile, and works without JavaScript. Publication search progressively enhances the archive. Project videos link to YouTube without loading third-party embeds.
+The homepage uses a plain introduction, a small portrait, and compact research and publication lists. The biography opens with a single mention of Gosset, then describes the research background. All 13 press logos appear near the bottom, after education and before the two contact email addresses. Navigation is always visible, including on mobile, and works without JavaScript. Publication search progressively enhances the archive. Project videos link to YouTube without loading third-party embeds.
 
 ## Publishing
 
@@ -43,7 +43,7 @@ A ready-to-install validation workflow is included at `docs/workflows/validate.y
 
 ## Content sources
 
-The research archive, education, original portrait, project imagery, and Stanford contact address come from the existing site. The refreshed biography presents past affiliations as past roles and removes the obsolete office location and office hours from the homepage.
+The research archive, education, original portrait, project imagery, publication logos, and Stanford contact address come from the existing site. The second contact address, `lukasz@gosset.ai`, was supplied by the user. The refreshed biography presents past affiliations as past roles and removes the obsolete office location and office hours from the homepage.
 
 - [Gosset](https://gosset.ai/): current co-founder role, previous Director of AI role at Clario, and current platform description.
 - [OpenCap, PLOS Computational Biology (2023)](https://doi.org/10.1371/journal.pcbi.1011462): publication details and equal contribution note.
