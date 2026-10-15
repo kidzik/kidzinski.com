@@ -1,0 +1,32 @@
+eyebrow = "Co-founder of Gosset · AI researcher"
+intro = "I work at the intersection of machine learning, statistics, and human health."
+now = "Currently building Gosset to help people make sense of the pharmaceutical landscape."
+
+[[projects]]
+  slug = "video-analysis"
+  category = "Computer vision · Biomechanics"
+  title = "Understanding movement from video"
+  description = "Using everyday cameras and deep learning to make quantitative gait analysis more accessible."
+  image = "dl-biomechanics.webp"
+  alt = "Video frames with anatomical landmarks overlaid for gait analysis"
+[[projects]]
+  slug = "nips-learning-to-run"
+  category = "Reinforcement learning"
+  title = "Learning to run"
+  description = "Musculoskeletal simulation environments and the NeurIPS challenges in learning to run and AI for prosthetics."
+  image = "learning-to-run.webp"
+  alt = "Musculoskeletal model running in a simulated environment"
+[[projects]]
+  slug = "deepart"
+  category = "Generative art · Computer vision"
+  title = "A little art, a lot of neural networks"
+  description = "DeepArt brought neural style transfer out of research papers and into a platform anyone could use."
+  image = "deepart.webp"
+  alt = "A city waterfront rendered in the style of a painting using neural style transfer"
+[[projects]]
+  slug = "street-view"
+  category = "Machine learning · Society"
+  title = "What can a street image reveal?"
+  description = "Investigating the relationship between house images and car accident risk, and the privacy questions it raises."
+  image = "street-view.webp"
+  alt = "Aerial view of a residential neighborhood illustrating the Street View research"

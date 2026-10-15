@@ -1,0 +1,5 @@
+<article class="publication-row" data-publication>
+  <span class="publication-year">{{ .Date.Year }}</span>
+  <div><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p class="publication-authors">{{ delimit .Params.authors ", " }}</p><p class="publication-venue">{{ if eq .Params.publication "Under review" }}Preprint{{ else }}{{ .Params.publication | markdownify }}{{ end }}</p>{{ partial "publication-links.html" . }}</div>
+  <a class="publication-arrow" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}"><span aria-hidden="true">↗</span></a>
+</article>
