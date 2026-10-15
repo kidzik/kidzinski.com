@@ -1,6 +1,6 @@
 # kidzinski.com
 
-Personal website for Łukasz Kidziński, built with Hugo and a small, local template system. No theme checkout, npm packages, web fonts, analytics scripts, or runtime framework are required.
+Personal website for Lukas Kidzinski, built with Hugo and a small, local template system. No theme checkout, npm packages, web fonts, analytics scripts, or runtime framework are required.
 
 ## Preview and build
 

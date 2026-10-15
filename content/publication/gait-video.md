@@ -1,7 +1,7 @@
 +++
 title = "Deep neural networks enable quantitative movement analysis using single-camera videos"
 date = "2020-08-13"
-authors = ["Łukasz Kidziński", "Bryan Yang", "Jennifer L. Hicks", "Apoorva Rajagopal", "Scott L. Delp", "Michael H. Schwartz"]
+authors = ["Lukas Kidzinski", "Bryan Yang", "Jennifer L. Hicks", "Apoorva Rajagopal", "Scott L. Delp", "Michael H. Schwartz"]
 publication = "Nature Communications"
 publication_types = ["2"]
 selected = true
@@ -13,6 +13,6 @@ projects = ["video-analysis"]
 
 We developed machine learning methods for estimating gait metrics from ordinary single-camera videos of children with cerebral palsy. The work explores how computer vision could make quantitative movement analysis more accessible.
 
-Łukasz Kidziński and Bryan Yang contributed equally to this work.
+Lukas Kidzinski and Bryan Yang contributed equally to this work.
 
 Read the [published paper](https://www.nature.com/articles/s41467-020-17807-z) for the methods, validation, and study limitations.

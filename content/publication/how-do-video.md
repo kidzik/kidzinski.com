@@ -3,7 +3,7 @@ title = "How Do In-video Interactions Reflect Perceived Video Difficulty?"
 date = "2015-06-02"
 
 # Authors. 
-authors = ["Nan Li", "Łukasz Kidziński", "Patrick Jermann", "Pierre Dillenbourg"]
+authors = ["Nan Li", "Lukas Kidzinski", "Patrick Jermann", "Pierre Dillenbourg"]
 
 # Publication type.
 # Legend:

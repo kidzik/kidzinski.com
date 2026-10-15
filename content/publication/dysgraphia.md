@@ -3,7 +3,7 @@ title = "Automated human-level diagnosis of dysgraphia using a consumer tablet"
 date = "2018-11-05"
 
 # Authors. 
-authors = ["Thibault Asselborn", "Thomas Gargot", "Łukasz Kidziński", "Wafa Johal", "David Cohen", "Caroline Jolly", "Pierre Dillenbourg" ]
+authors = ["Thibault Asselborn", "Thomas Gargot", "Lukas Kidzinski", "Wafa Johal", "David Cohen", "Caroline Jolly", "Pierre Dillenbourg" ]
 
 # Publication type.
 # Legend:

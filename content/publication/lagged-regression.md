@@ -3,7 +3,7 @@ title = "Estimation in functional lagged regression"
 date = "2015-07-01"
 
 # Authors. 
-authors = ["Siegfried Hörmann", "Łukasz Kidziński", "Piotr Kokoszka"]
+authors = ["Siegfried Hörmann", "Lukas Kidzinski", "Piotr Kokoszka"]
 
 # Publication type.
 # Legend:

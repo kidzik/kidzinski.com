@@ -3,7 +3,7 @@ title = "MOOC video interaction patterns: What do they tell us?"
 date = "2015-06-02"
 
 # Authors. 
-authors = ["Nan Li", "Łukasz Kidziński", "Patrick Jermann", "Pierre Dillenbourg"]
+authors = ["Nan Li", "Lukas Kidzinski", "Patrick Jermann", "Pierre Dillenbourg"]
 
 # Publication type.
 # Legend:

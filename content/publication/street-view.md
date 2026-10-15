@@ -3,7 +3,7 @@ title = "Google Street View image of a house predicts car accident risk of its r
 date = "2018-11-15"
 
 # Authors. 
-authors = ["Kinga Kita-Wojciechowska","Łukasz Kidziński"]
+authors = ["Kinga Kita-Wojciechowska","Lukas Kidzinski"]
 
 # Publication type.
 # Legend:

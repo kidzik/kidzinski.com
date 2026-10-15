@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ $home := hugo.Data.home }}
 <section class="intro shell" id="about" aria-labelledby="intro-title">
-  <h1 id="intro-title">Łukasz Kidziński</h1>
-  <img class="portrait" src="{{ "img/modern/portrait.webp" | relURL }}" width="160" height="160" alt="Łukasz Kidziński" fetchpriority="high">
+  <h1 id="intro-title">{{ site.Title }}</h1>
+  <img class="portrait" src="{{ "img/modern/portrait.webp" | relURL }}" width="160" height="160" alt="{{ site.Title }}" fetchpriority="high">
   <div class="intro-copy">
     <p id="work">I’m a co-founder of <a href="https://gosset.ai/">Gosset</a>, a pharmaceutical intelligence platform. My work there draws on a background in statistics, machine learning, and developing software for healthcare.</p>
     <p>{{ $home.intro }}</p>

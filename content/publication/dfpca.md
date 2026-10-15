@@ -3,7 +3,7 @@ title = "Dynamic Functional Principal Component"
 date = "2015-06-02"
 
 # Authors. 
-authors = ["Siegfried Hörmann", "Łukasz Kidziński", "Marc Hallin"]
+authors = ["Siegfried Hörmann", "Lukas Kidzinski", "Marc Hallin"]
 
 # Publication type.
 # Legend:

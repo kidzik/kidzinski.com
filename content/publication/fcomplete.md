@@ -3,7 +3,7 @@ title = "Longitudinal data analysis using matrix completion"
 date = "2018-11-15"
 
 # Authors. 
-authors = ["Łukasz Kidziński", "Trevor Hastie"]
+authors = ["Lukas Kidzinski", "Trevor Hastie"]
 
 # Publication type.
 # Legend:

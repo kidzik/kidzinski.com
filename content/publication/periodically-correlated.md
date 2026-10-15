@@ -3,7 +3,7 @@ title = "Principal component analysis of periodically correlated functional time
 date = "2017-07-01"
 
 # Authors. 
-authors = ["Łukasz Kidziński", "Piotr Kokoszka", "Neda Mohammadi Jouzdani"]
+authors = ["Lukas Kidzinski", "Piotr Kokoszka", "Neda Mohammadi Jouzdani"]
 
 # Publication type.
 # Legend:

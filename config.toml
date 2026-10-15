@@ -1,12 +1,12 @@
 baseURL = "https://kidzinski.com/"
-title = "Łukasz Kidziński"
+title = "Lukas Kidzinski"
 locale = "en-US"
 enableRobotsTXT = true
 publishDir = "public"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  description = "Łukasz Kidziński. Research in machine learning, statistics, and biomechanics. Publications, projects, and press coverage."
+  description = "Lukas Kidzinski. Research in machine learning, statistics, and biomechanics. Publications, projects, and press coverage."
   email = "lukasz.kidzinski@stanford.edu"
   email_secondary = "lukasz@gosset.ai"
   github = "https://github.com/kidzik"

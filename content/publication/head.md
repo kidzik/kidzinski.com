@@ -3,7 +3,7 @@ title = "Translating head motion into attention-towards processing of student’
 date = "2015-06-02"
 
 # Authors. 
-authors = ["Mirko Raca", "Łukasz Kidziński", "Pierre Dillenbourg"]
+authors = ["Mirko Raca", "Lukas Kidzinski", "Pierre Dillenbourg"]
 
 # Publication type.
 # Legend:

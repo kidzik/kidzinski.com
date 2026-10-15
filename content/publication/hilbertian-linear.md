@@ -3,7 +3,7 @@ title = "A note on estimation in Hilbertian linear models"
 date = "2015-03-01"
 
 # Authors. 
-authors = ["Siegfried Hörmann", "Łukasz Kidziński"]
+authors = ["Siegfried Hörmann", "Lukas Kidzinski"]
 
 # Publication type.
 # Legend:

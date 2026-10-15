@@ -3,7 +3,7 @@ title = "Estimating the effect size of surgery to improve walking in children wi
 date = "2018-11-05"
 
 # Authors. 
-authors = ["Apoorva Rajagopal", "Łukasz Kidziński", "Alec S. McGlaughlin", "Jennifer L. Hicks", "Scott L. Delp", "Michael H. Schwartz"]
+authors = ["Apoorva Rajagopal", "Lukas Kidzinski", "Alec S. McGlaughlin", "Jennifer L. Hicks", "Scott L. Delp", "Michael H. Schwartz"]
 
 # Publication type.
 # Legend:

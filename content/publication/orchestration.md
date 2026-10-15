@@ -3,7 +3,7 @@ title = "Orchestration Load Indicators and Patterns: In-the-wild Studies Using M
 date = "2017-06-02"
 
 # Authors. 
-authors = ["Luis P. Prieto", "Kshitij Sharma", "Łukasz Kidziński", "Pierre Dillenbourg"]
+authors = ["Luis P. Prieto", "Kshitij Sharma", "Lukas Kidzinski", "Pierre Dillenbourg"]
 
 # Publication type.
 # Legend:
