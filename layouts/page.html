@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="article shell">
   <a class="text-link back-link" href="{{ .CurrentSection.RelPermalink }}">← All {{ if eq .Section "publication" }}publications{{ else }}projects{{ end }}</a>
-  <header class="article-header"><p class="eyebrow">{{ if eq .Section "publication" }}Publication{{ else }}Research archive{{ end }} / {{ .Date.Year }}</p><h1>{{ .Title }}</h1>{{ with .Params.authors }}<p class="article-authors">{{ delimit . ", " }}</p>{{ end }}{{ with .Params.publication }}<p class="publication-venue">{{ if eq . "Under review" }}Preprint{{ else }}{{ . | markdownify }}{{ end }}</p>{{ end }}{{ if eq .Section "publication" }}{{ partial "publication-links.html" . }}{{ end }}</header>
+  <header class="article-header"><p class="eyebrow">{{ if eq .Section "publication" }}Publication{{ else }}Research archive{{ end }} / {{ .Date.Year }}</p><h1>{{ .Title }}</h1>{{ with .Params.authors }}<p class="article-authors">{{ delimit . ", " }}</p>{{ end }}{{ partial "publication-venue.html" . }}{{ if eq .Section "publication" }}{{ partial "publication-links.html" . }}{{ end }}</header>
   {{ with .Params.header.image }}<img class="article-cover" src="{{ printf "img/%s" . | relURL }}" alt="" width="1000" height="500">{{ end }}
   <div class="prose">{{ with .Params.abstract }}<h2>Abstract</h2><p>{{ . | markdownify }}</p>{{ end }}{{ .Content }}</div>
   {{ with .Params.url_code }}<a class="button article-cta" href="{{ . }}">Source code</a>{{ end }}

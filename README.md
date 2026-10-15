@@ -24,6 +24,7 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 - `data/home.toml`: personal introduction and featured research projects.
 - `data/press.toml`: all 13 press outlets, their original logos, and coverage links.
+- `data/journals.toml`: local journal marks and cover badges displayed beside journal names.
 - `layouts/home.html`: biography, press, research, education, contact, and featured publication selection.
 - `content/project/`: original research pages, with their existing URLs.
 - `content/publication/`: publication records, authors, abstracts, and paper/code links.
@@ -33,7 +34,7 @@ Output goes to `public/`, inside this repository. Builds no longer write into a 
 
 The older Academic homepage widgets, theme tutorials, and sample talks remain on disk for reference and are excluded from the new build. The original CV remains available at `/Lukasz-Kidzinski-CV.pdf`; it is not advertised as a current CV. Existing homepage anchors for projects, publications, about, teaching, and contact remain available.
 
-The homepage uses a plain introduction, a small portrait, and compact research and publication lists. The biography opens with a single mention of Gosset, then describes the research background. All 13 press logos appear near the bottom, after education and before the two contact email addresses. Navigation is always visible, including on mobile, and works without JavaScript. Publication search progressively enhances the archive. Project videos link to YouTube without loading third-party embeds.
+The homepage uses a plain introduction, a small portrait, and compact research and publication lists. The biography opens with a single mention of Gosset, then describes the research background. All 13 press logos appear near the bottom, after education and before the contact section. Each email address is revealed only after activating its labeled button; the initial generated HTML has neither the plaintext address nor its mailto link. With JavaScript disabled or unavailable, a readable `[at]` / `[dot]` version is shown. This is lightweight obfuscation for basic harvesting, not a barrier to scrapers that decode public source or interact with the page. Navigation is always visible, including on mobile, and works without JavaScript. Publication search progressively enhances the archive. Project videos link to YouTube without loading third-party embeds.
 
 ## Publishing
 
@@ -48,5 +49,8 @@ The research archive, education, original portrait, project imagery, publication
 - [Gosset](https://gosset.ai/): current co-founder role, previous Director of AI role at Clario, and current platform description.
 - [OpenCap, PLOS Computational Biology (2023)](https://doi.org/10.1371/journal.pcbi.1011462): publication details and equal contribution note.
 - [Single-camera movement analysis, Nature Communications (2020)](https://www.nature.com/articles/s41467-020-17807-z): publication details and equal contribution note.
+- [Wearable sensors, Nature Medicine (2021)](https://doi.org/10.1038/s41591-021-01339-0) and [author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/PMC8293303/): authors, equal contribution, and publication details.
+- [Matrix completion, JCGS 33(2), 551–566 (2024)](https://doi.org/10.1080/10618600.2023.2257257) and [Crossref metadata](https://api.crossref.org/works/10.1080/10618600.2023.2257257): final title and DOI, November 15, 2023 online publication, and April 2, 2024 issue date. The existing `/publication/fcomplete/` URL is preserved.
+- [Journal asset sources](docs/journal-assets.md): official marks and society-provided cover badges stored locally.
 
 Older publication records are retained; a historical “Under review” label is displayed as “Preprint” where the source already links to a preprint. This is a selected archive, not a complete or automatically synchronized bibliography; Google Scholar is linked for the full record.

@@ -1,4 +1,5 @@
 +++
+journal = "scientific-reports"
 title = "Estimating the effect size of surgery to improve walking in children with cerebral palsy from retrospective observational clinical data"
 date = "2018-11-05"
 
@@ -17,8 +18,8 @@ authors = ["Apoorva Rajagopal", "Lukas Kidzinski", "Alec S. McGlaughlin", "Jenni
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Nature Scientific Reports*"
-publication_short = "In *Scientific Reports*"
+publication = "Scientific Reports"
+publication_short = "Scientific Reports"
 
 # Abstract and optional shortened version.
 abstract = "Single-event multilevel surgery (SEMLS) is a standard treatment approach aimed at improving gait for patients with cerebral palsy, but the effect of this approach compared to natural progression without surgical intervention is unclear. In this study, we used retrospective patient history, physical exam, and three-dimensional gait analysis data from 2,333 limbs to build regression models estimating the effect of SEMLS on gait, while controlling for expected natural progression. Post-hoc classifications using the regression model results identified which limbs would exhibit gait within two standard deviations of typical gait at the follow-up visit with or without a SEMLS with 73% and 77% accuracy, respectively. Using these models, we found that, while surgery was expected to have a positive effect on 93% of limbs compared to natural progression, in only 37% of limbs was this expected effect a clinically meaningful improvement. We identified 26% of the non-surgically treated limbs that may have shown a clinically meaningful improvement in gait had they received surgery. Our models suggest that pre-operative physical therapy focused on improving biomechanical characteristics, such as walking speed and strength, may improve likelihood of positive surgical outcomes. These models are shared with the community to use as an evaluation tool when considering whether or not a patient should undergo a SEMLS."

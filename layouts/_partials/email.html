@@ -1,0 +1,2 @@
+<span class="email-fallback">{{ replace (replace .address "@" " [at] ") "." " [dot] " }}</span>
+<button class="email-reveal" type="button" data-email="{{ .address | base64Encode }}" hidden>{{ .label }}</button>

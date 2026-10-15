@@ -1,4 +1,5 @@
 +++
+journal = "jrssb"
 title = "Dynamic Functional Principal Component"
 date = "2015-06-02"
 
@@ -17,8 +18,8 @@ authors = ["Siegfried Hörmann", "Lukas Kidzinski", "Marc Hallin"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Journal of the Royal Statistical Society: Series B (JRSSB)*"
-publication_short = "In *JRSSB*"
+publication = "Journal of the Royal Statistical Society: Series B"
+publication_short = "JRSSB"
 
 # Abstract and optional shortened version.
 abstract = "In this paper, we address the problem of dimension reduction for time series of functional data ($X_t$: $t$ ∈ $Z$). Such functional time series frequently arise, e.g., when a continuous-time process is segmented into some smaller natural units, such as days. Then each $X_t$ represents one intraday curve. We argue that functional principal component analysis (FPCA), though a key technique in the field and a benchmark for any competitor, does not provide an adequate dimension reduction in a time-series setting. FPCA indeed is a static procedure which ignores the essential information provided by the serial dependence structure of the functional data under study. Therefore, inspired by Brillinger's theory of dynamic principal components, we propose a dynamic version of FPCA, which is based on a frequency-domain approach. By means of a simulation study and an empirical illustration, we show the considerable improvement the dynamic approach entails when compared to the usual static procedure."

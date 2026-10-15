@@ -1,4 +1,5 @@
 +++
+journal = "plos-computational-biology"
 title = "OpenCap: Human movement dynamics from smartphone videos"
 date = "2023-10-19"
 authors = ["Scott D. Uhlrich", "Antoine Falisse", "Lukas Kidzinski", "Julie Muccini", "Michael Ko", "Akshay S. Chaudhari", "Jennifer L. Hicks", "Scott L. Delp"]

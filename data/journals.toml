@@ -1,0 +1,42 @@
+[nature-medicine]
+image = "nature.png"
+width = 32
+height = 32
+source = "https://www.nature.com/nm/"
+
+[nature-communications]
+image = "nature.png"
+width = 32
+height = 32
+source = "https://www.nature.com/ncomms/"
+
+[plos-computational-biology]
+kind = "wordmark"
+image = "plos-computational-biology.png"
+width = 738
+height = 204
+source = "https://journals.plos.org/ploscompbiol/"
+
+[jcgs]
+image = "jcgs.gif"
+width = 75
+height = 110
+source = "https://www.amstat.org/publications/journals"
+
+[jrssb]
+image = "jrssb.png"
+width = 218
+height = 260
+source = "https://rss.org.uk/news-publication/publications/journals/series-b/"
+
+[npj-digital-medicine]
+image = "nature.png"
+width = 32
+height = 32
+source = "https://www.nature.com/npjdigitalmed/"
+
+[scientific-reports]
+image = "nature.png"
+width = 32
+height = 32
+source = "https://www.nature.com/srep/"

@@ -1,4 +1,5 @@
 +++
+journal = "nature-communications"
 title = "Deep neural networks enable quantitative movement analysis using single-camera videos"
 date = "2020-08-13"
 authors = ["Lukas Kidzinski", "Bryan Yang", "Jennifer L. Hicks", "Apoorva Rajagopal", "Scott L. Delp", "Michael H. Schwartz"]
